@@ -2,7 +2,7 @@
 layout: default
 username: Differential
 repo: meteor-blog
-version: 0.6.1
+version: 0.6.2
 desc: Gives you an basic, out-of-the-box blog at `/blog`
 
 ---
@@ -19,7 +19,7 @@ vote with your [Github issues](https://github.com/Differential/meteor-blog/issue
 
 * Medium-style editor
 * Slug-based URLs (editable)
-* Add images
+* Add images (store in database or upload to S3)
 * Support DISQUS comments
 * Blog post tags and tag view
 * Widget to embed recent posts on another (e.g. home) page

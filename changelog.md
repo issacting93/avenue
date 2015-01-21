@@ -2,11 +2,20 @@
 layout: default
 username: Differential
 repo: meteor-blog
-version: 0.6.1
+version: 0.6.2
 desc: Gives you an basic, out-of-the-box blog at `/blog`
 
 ---
 # Changelog
+
+### v0.6.2
+
+* Allow user to upload blog images to S3 ([#141](https://github.com/Differential/meteor-blog/pull/141))
+* Add 'Edit this Post' link to blog post ([#146](https://github.com/Differential/meteor-blog/pull/146))
+* Make blog more SEO-friendly ([#137](https://github.com/Differential/meteor-blog/pull/137))
+* Fix many bugs related to medium-editor ([#150](https://github.com/Differential/meteor-blog/pull/150), [#145](https://github.com/Differential/meteor-blog/pull/145), [#142](https://github.com/Differential/meteor-blog/pull/142))
+* Fix bugs related to `side-comments.js` ([#143](https://github.com/Differential/meteor-blog/pull/143) and [#144](https://github.com/Differential/meteor-blog/pull/144))
+* Upgrade `medium-editor`, `medium-editor-insert-plugin` libs
 
 ### v0.6.1
 
